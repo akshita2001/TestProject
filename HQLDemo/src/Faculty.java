@@ -7,6 +7,7 @@ public class Faculty
 	private String designation;
 	private int age;
 	private double salary;
+	private String location;
 	public int getFid() {
 		return fid;
 	}
