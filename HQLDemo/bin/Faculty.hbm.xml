@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="Faculty" table="Faculty">
+<id name="fid" column="faculty_id"></id>
+<property name="name" column="faculty_name"></property>
+<property name="dept" column="faculty_department"></property>
+<property name="designation" column="faculty_designation"></property>
+<property name="age" column="faculty_age"></property>
+<property name="salary" column="faculty_salary"></property>
+
+
+</class>
+</hibernate-mapping>
